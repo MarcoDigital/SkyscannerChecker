@@ -26,16 +26,20 @@ headers = {
     "X-RapidAPI-Host": "skyscanner44.p.rapidapi.com"
 }
 
-response = requests.request(
-    "GET", url, headers=headers, params=querystring)
+try:
+    response = requests.request(
+        "GET", url, headers=headers, params=querystring)
+except:
+    time.sleep(interval)
 ##### RAPID API ###
 
 
 def gen():
-    data = response.json()
-
-    buckets = data["itineraries"]["buckets"]
-
+    try:
+        data = response.json()
+        buckets = data["itineraries"]["buckets"]
+    except:
+        time.sleep(interval)
     for info in buckets:
         try:
             soort = info["id"]
