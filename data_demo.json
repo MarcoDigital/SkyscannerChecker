@@ -1,0 +1,2100 @@
+{
+    "itineraries": {
+        "buckets": [
+            {
+                "id": "Best",
+                "name": "Best",
+                "items": [
+                    {
+                        "id": "9451-2212011000--32132-0-10803-2212011500|10803-2212101700--32132-0-9451-2212110820",
+                        "price": {
+                            "raw": 1724,
+                            "formatted": "1,724 \u20ac"
+                        },
+                        "legs": [
+                            {
+                                "id": "9451-2212011000--32132-0-10803-2212011500",
+                                "origin": {
+                                    "id": "AMS",
+                                    "name": "Amsterdam",
+                                    "displayCode": "AMS",
+                                    "city": "Amsterdam",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "CUN",
+                                    "name": "Cancun",
+                                    "displayCode": "CUN",
+                                    "city": "Cancun",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 660,
+                                "stopCount": 0,
+                                "isSmallestStops": true,
+                                "departure": "2022-12-01T10:00:00",
+                                "arrival": "2022-12-01T15:00:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32132,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/KL.png",
+                                            "name": "KLM"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "9451-10803-2212011000-2212011500--32132",
+                                        "origin": {
+                                            "flightPlaceId": "AMS",
+                                            "parent": {
+                                                "flightPlaceId": "AMST",
+                                                "name": "Amsterdam",
+                                                "type": "City"
+                                            },
+                                            "name": "Amsterdam",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "CUN",
+                                            "parent": {
+                                                "flightPlaceId": "CUNA",
+                                                "name": "Cancun",
+                                                "type": "City"
+                                            },
+                                            "name": "Cancun",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-12-01T10:00:00",
+                                        "arrival": "2022-12-01T15:00:00",
+                                        "durationInMinutes": 660,
+                                        "flightNumber": "689",
+                                        "marketingCarrier": {
+                                            "id": -32132,
+                                            "name": "KLM",
+                                            "alternateId": "KL",
+                                            "allianceId": -31998
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32132,
+                                            "name": "KLM",
+                                            "alternateId": "KL",
+                                            "allianceId": -31998
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "10803-2212101700--32132-0-9451-2212110820",
+                                "origin": {
+                                    "id": "CUN",
+                                    "name": "Cancun",
+                                    "displayCode": "CUN",
+                                    "city": "Cancun",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "AMS",
+                                    "name": "Amsterdam",
+                                    "displayCode": "AMS",
+                                    "city": "Amsterdam",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 560,
+                                "stopCount": 0,
+                                "isSmallestStops": true,
+                                "departure": "2022-12-10T17:00:00",
+                                "arrival": "2022-12-11T08:20:00",
+                                "timeDeltaInDays": 1,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32132,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/KL.png",
+                                            "name": "KLM"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "10803-9451-2212101700-2212110820--32132",
+                                        "origin": {
+                                            "flightPlaceId": "CUN",
+                                            "parent": {
+                                                "flightPlaceId": "CUNA",
+                                                "name": "Cancun",
+                                                "type": "City"
+                                            },
+                                            "name": "Cancun",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "AMS",
+                                            "parent": {
+                                                "flightPlaceId": "AMST",
+                                                "name": "Amsterdam",
+                                                "type": "City"
+                                            },
+                                            "name": "Amsterdam",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-12-10T17:00:00",
+                                        "arrival": "2022-12-11T08:20:00",
+                                        "durationInMinutes": 560,
+                                        "flightNumber": "690",
+                                        "marketingCarrier": {
+                                            "id": -32132,
+                                            "name": "KLM",
+                                            "alternateId": "KL",
+                                            "allianceId": -31998
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32132,
+                                            "name": "KLM",
+                                            "alternateId": "KL",
+                                            "allianceId": -31998
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "tags": [
+                            "shortest"
+                        ],
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 7.67143,
+                        "deeplink": "https://www.skyscanner.net/transport/flights/ams/cun/221201/221210/config/9451-2212011000--32132-0-10803-2212011500|10803-2212101700--32132-0-9451-2212110820?adults=2&adultsv2=2&cabinclass=economy&children=0&childrenv2=&destinationentityid=27540602&originentityid=27536561&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    },
+                    {
+                        "id": "9451-2212011000--32132-0-10803-2212011500|10803-2212101340--32132-1-9451-2212110915",
+                        "price": {
+                            "raw": 1599,
+                            "formatted": "1,599 \u20ac"
+                        },
+                        "legs": [
+                            {
+                                "id": "9451-2212011000--32132-0-10803-2212011500",
+                                "origin": {
+                                    "id": "AMS",
+                                    "name": "Amsterdam",
+                                    "displayCode": "AMS",
+                                    "city": "Amsterdam",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "CUN",
+                                    "name": "Cancun",
+                                    "displayCode": "CUN",
+                                    "city": "Cancun",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 660,
+                                "stopCount": 0,
+                                "isSmallestStops": true,
+                                "departure": "2022-12-01T10:00:00",
+                                "arrival": "2022-12-01T15:00:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32132,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/KL.png",
+                                            "name": "KLM"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "9451-10803-2212011000-2212011500--32132",
+                                        "origin": {
+                                            "flightPlaceId": "AMS",
+                                            "parent": {
+                                                "flightPlaceId": "AMST",
+                                                "name": "Amsterdam",
+                                                "type": "City"
+                                            },
+                                            "name": "Amsterdam",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "CUN",
+                                            "parent": {
+                                                "flightPlaceId": "CUNA",
+                                                "name": "Cancun",
+                                                "type": "City"
+                                            },
+                                            "name": "Cancun",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-12-01T10:00:00",
+                                        "arrival": "2022-12-01T15:00:00",
+                                        "durationInMinutes": 660,
+                                        "flightNumber": "689",
+                                        "marketingCarrier": {
+                                            "id": -32132,
+                                            "name": "KLM",
+                                            "alternateId": "KL",
+                                            "allianceId": -31998
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32132,
+                                            "name": "KLM",
+                                            "alternateId": "KL",
+                                            "allianceId": -31998
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "10803-2212101340--32132-1-9451-2212110915",
+                                "origin": {
+                                    "id": "CUN",
+                                    "name": "Cancun",
+                                    "displayCode": "CUN",
+                                    "city": "Cancun",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "AMS",
+                                    "name": "Amsterdam",
+                                    "displayCode": "AMS",
+                                    "city": "Amsterdam",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 815,
+                                "stopCount": 1,
+                                "isSmallestStops": false,
+                                "departure": "2022-12-10T13:40:00",
+                                "arrival": "2022-12-11T09:15:00",
+                                "timeDeltaInDays": 1,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32132,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/KL.png",
+                                            "name": "KLM"
+                                        }
+                                    ],
+                                    "operating": [
+                                        {
+                                            "id": -32385,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/DL.png",
+                                            "name": "Delta"
+                                        }
+                                    ],
+                                    "operationType": "not_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "10803-12712-2212101340-2212101740--32132",
+                                        "origin": {
+                                            "flightPlaceId": "CUN",
+                                            "parent": {
+                                                "flightPlaceId": "CUNA",
+                                                "name": "Cancun",
+                                                "type": "City"
+                                            },
+                                            "name": "Cancun",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "JFK",
+                                            "parent": {
+                                                "flightPlaceId": "NYCA",
+                                                "name": "New York",
+                                                "type": "City"
+                                            },
+                                            "name": "New York John F. Kennedy",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-12-10T13:40:00",
+                                        "arrival": "2022-12-10T17:40:00",
+                                        "durationInMinutes": 240,
+                                        "flightNumber": "6863",
+                                        "marketingCarrier": {
+                                            "id": -32132,
+                                            "name": "KLM",
+                                            "alternateId": "KL",
+                                            "allianceId": -31998
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32385,
+                                            "name": "Delta",
+                                            "alternateId": "DL",
+                                            "allianceId": -31998
+                                        }
+                                    },
+                                    {
+                                        "id": "12712-9451-2212101930-2212110915--32132",
+                                        "origin": {
+                                            "flightPlaceId": "JFK",
+                                            "parent": {
+                                                "flightPlaceId": "NYCA",
+                                                "name": "New York",
+                                                "type": "City"
+                                            },
+                                            "name": "New York John F. Kennedy",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "AMS",
+                                            "parent": {
+                                                "flightPlaceId": "AMST",
+                                                "name": "Amsterdam",
+                                                "type": "City"
+                                            },
+                                            "name": "Amsterdam",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-12-10T19:30:00",
+                                        "arrival": "2022-12-11T09:15:00",
+                                        "durationInMinutes": 465,
+                                        "flightNumber": "6007",
+                                        "marketingCarrier": {
+                                            "id": -32132,
+                                            "name": "KLM",
+                                            "alternateId": "KL",
+                                            "allianceId": -31998
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32385,
+                                            "name": "Delta",
+                                            "alternateId": "DL",
+                                            "allianceId": -31998
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 6.84199,
+                        "deeplink": "https://www.skyscanner.net/transport/flights/ams/cun/221201/221210/config/9451-2212011000--32132-0-10803-2212011500|10803-2212101340--32132-1-9451-2212110915?adults=2&adultsv2=2&cabinclass=economy&children=0&childrenv2=&destinationentityid=27540602&originentityid=27536561&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    },
+                    {
+                        "id": "9451-2212011000--32132-0-10803-2212011500|10803-2212101930--32132-1-9451-2212111400",
+                        "price": {
+                            "raw": 1674,
+                            "formatted": "1,674 \u20ac"
+                        },
+                        "legs": [
+                            {
+                                "id": "9451-2212011000--32132-0-10803-2212011500",
+                                "origin": {
+                                    "id": "AMS",
+                                    "name": "Amsterdam",
+                                    "displayCode": "AMS",
+                                    "city": "Amsterdam",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "CUN",
+                                    "name": "Cancun",
+                                    "displayCode": "CUN",
+                                    "city": "Cancun",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 660,
+                                "stopCount": 0,
+                                "isSmallestStops": true,
+                                "departure": "2022-12-01T10:00:00",
+                                "arrival": "2022-12-01T15:00:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32132,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/KL.png",
+                                            "name": "KLM"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "9451-10803-2212011000-2212011500--32132",
+                                        "origin": {
+                                            "flightPlaceId": "AMS",
+                                            "parent": {
+                                                "flightPlaceId": "AMST",
+                                                "name": "Amsterdam",
+                                                "type": "City"
+                                            },
+                                            "name": "Amsterdam",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "CUN",
+                                            "parent": {
+                                                "flightPlaceId": "CUNA",
+                                                "name": "Cancun",
+                                                "type": "City"
+                                            },
+                                            "name": "Cancun",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-12-01T10:00:00",
+                                        "arrival": "2022-12-01T15:00:00",
+                                        "durationInMinutes": 660,
+                                        "flightNumber": "689",
+                                        "marketingCarrier": {
+                                            "id": -32132,
+                                            "name": "KLM",
+                                            "alternateId": "KL",
+                                            "allianceId": -31998
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32132,
+                                            "name": "KLM",
+                                            "alternateId": "KL",
+                                            "allianceId": -31998
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "10803-2212101930--32132-1-9451-2212111400",
+                                "origin": {
+                                    "id": "CUN",
+                                    "name": "Cancun",
+                                    "displayCode": "CUN",
+                                    "city": "Cancun",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "AMS",
+                                    "name": "Amsterdam",
+                                    "displayCode": "AMS",
+                                    "city": "Amsterdam",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 750,
+                                "stopCount": 1,
+                                "isSmallestStops": false,
+                                "departure": "2022-12-10T19:30:00",
+                                "arrival": "2022-12-11T14:00:00",
+                                "timeDeltaInDays": 1,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32132,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/KL.png",
+                                            "name": "KLM"
+                                        }
+                                    ],
+                                    "operating": [
+                                        {
+                                            "id": -32677,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AF.png",
+                                            "name": "Air France"
+                                        }
+                                    ],
+                                    "operationType": "not_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "10803-10413-2212101930-2212111105--32132",
+                                        "origin": {
+                                            "flightPlaceId": "CUN",
+                                            "parent": {
+                                                "flightPlaceId": "CUNA",
+                                                "name": "Cancun",
+                                                "type": "City"
+                                            },
+                                            "name": "Cancun",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "CDG",
+                                            "parent": {
+                                                "flightPlaceId": "PARI",
+                                                "name": "Paris",
+                                                "type": "City"
+                                            },
+                                            "name": "Paris Charles de Gaulle",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-12-10T19:30:00",
+                                        "arrival": "2022-12-11T11:05:00",
+                                        "durationInMinutes": 575,
+                                        "flightNumber": "2221",
+                                        "marketingCarrier": {
+                                            "id": -32132,
+                                            "name": "KLM",
+                                            "alternateId": "KL",
+                                            "allianceId": -31998
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32677,
+                                            "name": "Air France",
+                                            "alternateId": "AF",
+                                            "allianceId": -31998
+                                        }
+                                    },
+                                    {
+                                        "id": "10413-9451-2212111240-2212111400--32132",
+                                        "origin": {
+                                            "flightPlaceId": "CDG",
+                                            "parent": {
+                                                "flightPlaceId": "PARI",
+                                                "name": "Paris",
+                                                "type": "City"
+                                            },
+                                            "name": "Paris Charles de Gaulle",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "AMS",
+                                            "parent": {
+                                                "flightPlaceId": "AMST",
+                                                "name": "Amsterdam",
+                                                "type": "City"
+                                            },
+                                            "name": "Amsterdam",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-12-11T12:40:00",
+                                        "arrival": "2022-12-11T14:00:00",
+                                        "durationInMinutes": 80,
+                                        "flightNumber": "2012",
+                                        "marketingCarrier": {
+                                            "id": -32132,
+                                            "name": "KLM",
+                                            "alternateId": "KL",
+                                            "allianceId": -31998
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32677,
+                                            "name": "Air France",
+                                            "alternateId": "AF",
+                                            "allianceId": -31998
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 6.83598,
+                        "deeplink": "https://www.skyscanner.net/transport/flights/ams/cun/221201/221210/config/9451-2212011000--32132-0-10803-2212011500|10803-2212101930--32132-1-9451-2212111400?adults=2&adultsv2=2&cabinclass=economy&children=0&childrenv2=&destinationentityid=27540602&originentityid=27536561&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    }
+                ]
+            },
+            {
+                "id": "Fastest",
+                "name": "Fastest",
+                "items": [
+                    {
+                        "id": "9451-2212011000--32132-0-10803-2212011500|10803-2212101700--32132-0-9451-2212110820",
+                        "price": {
+                            "raw": 1724,
+                            "formatted": "1,724 \u20ac"
+                        },
+                        "legs": [
+                            {
+                                "id": "9451-2212011000--32132-0-10803-2212011500",
+                                "origin": {
+                                    "id": "AMS",
+                                    "name": "Amsterdam",
+                                    "displayCode": "AMS",
+                                    "city": "Amsterdam",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "CUN",
+                                    "name": "Cancun",
+                                    "displayCode": "CUN",
+                                    "city": "Cancun",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 660,
+                                "stopCount": 0,
+                                "isSmallestStops": true,
+                                "departure": "2022-12-01T10:00:00",
+                                "arrival": "2022-12-01T15:00:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32132,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/KL.png",
+                                            "name": "KLM"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "9451-10803-2212011000-2212011500--32132",
+                                        "origin": {
+                                            "flightPlaceId": "AMS",
+                                            "parent": {
+                                                "flightPlaceId": "AMST",
+                                                "name": "Amsterdam",
+                                                "type": "City"
+                                            },
+                                            "name": "Amsterdam",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "CUN",
+                                            "parent": {
+                                                "flightPlaceId": "CUNA",
+                                                "name": "Cancun",
+                                                "type": "City"
+                                            },
+                                            "name": "Cancun",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-12-01T10:00:00",
+                                        "arrival": "2022-12-01T15:00:00",
+                                        "durationInMinutes": 660,
+                                        "flightNumber": "689",
+                                        "marketingCarrier": {
+                                            "id": -32132,
+                                            "name": "KLM",
+                                            "alternateId": "KL",
+                                            "allianceId": -31998
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32132,
+                                            "name": "KLM",
+                                            "alternateId": "KL",
+                                            "allianceId": -31998
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "10803-2212101700--32132-0-9451-2212110820",
+                                "origin": {
+                                    "id": "CUN",
+                                    "name": "Cancun",
+                                    "displayCode": "CUN",
+                                    "city": "Cancun",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "AMS",
+                                    "name": "Amsterdam",
+                                    "displayCode": "AMS",
+                                    "city": "Amsterdam",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 560,
+                                "stopCount": 0,
+                                "isSmallestStops": true,
+                                "departure": "2022-12-10T17:00:00",
+                                "arrival": "2022-12-11T08:20:00",
+                                "timeDeltaInDays": 1,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32132,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/KL.png",
+                                            "name": "KLM"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "10803-9451-2212101700-2212110820--32132",
+                                        "origin": {
+                                            "flightPlaceId": "CUN",
+                                            "parent": {
+                                                "flightPlaceId": "CUNA",
+                                                "name": "Cancun",
+                                                "type": "City"
+                                            },
+                                            "name": "Cancun",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "AMS",
+                                            "parent": {
+                                                "flightPlaceId": "AMST",
+                                                "name": "Amsterdam",
+                                                "type": "City"
+                                            },
+                                            "name": "Amsterdam",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-12-10T17:00:00",
+                                        "arrival": "2022-12-11T08:20:00",
+                                        "durationInMinutes": 560,
+                                        "flightNumber": "690",
+                                        "marketingCarrier": {
+                                            "id": -32132,
+                                            "name": "KLM",
+                                            "alternateId": "KL",
+                                            "allianceId": -31998
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32132,
+                                            "name": "KLM",
+                                            "alternateId": "KL",
+                                            "allianceId": -31998
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "tags": [
+                            "shortest"
+                        ],
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 7.67143,
+                        "deeplink": "https://www.skyscanner.net/transport/flights/ams/cun/221201/221210/config/9451-2212011000--32132-0-10803-2212011500|10803-2212101700--32132-0-9451-2212110820?adults=2&adultsv2=2&cabinclass=economy&children=0&childrenv2=&destinationentityid=27540602&originentityid=27536561&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    },
+                    {
+                        "id": "9451-2212010930--32677-1-10803-2212011715|10803-2212101700--32132-0-9451-2212110820",
+                        "price": {
+                            "raw": 4402,
+                            "formatted": "4,402 \u20ac"
+                        },
+                        "legs": [
+                            {
+                                "id": "9451-2212010930--32677-1-10803-2212011715",
+                                "origin": {
+                                    "id": "AMS",
+                                    "name": "Amsterdam",
+                                    "displayCode": "AMS",
+                                    "city": "Amsterdam",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "CUN",
+                                    "name": "Cancun",
+                                    "displayCode": "CUN",
+                                    "city": "Cancun",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 825,
+                                "stopCount": 1,
+                                "isSmallestStops": false,
+                                "departure": "2022-12-01T09:30:00",
+                                "arrival": "2022-12-01T17:15:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32677,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AF.png",
+                                            "name": "Air France"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "9451-10413-2212010930-2212011055--32677",
+                                        "origin": {
+                                            "flightPlaceId": "AMS",
+                                            "parent": {
+                                                "flightPlaceId": "AMST",
+                                                "name": "Amsterdam",
+                                                "type": "City"
+                                            },
+                                            "name": "Amsterdam",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "CDG",
+                                            "parent": {
+                                                "flightPlaceId": "PARI",
+                                                "name": "Paris",
+                                                "type": "City"
+                                            },
+                                            "name": "Paris Charles de Gaulle",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-12-01T09:30:00",
+                                        "arrival": "2022-12-01T10:55:00",
+                                        "durationInMinutes": 85,
+                                        "flightNumber": "1241",
+                                        "marketingCarrier": {
+                                            "id": -32677,
+                                            "name": "Air France",
+                                            "alternateId": "AF",
+                                            "allianceId": -31998
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32677,
+                                            "name": "Air France",
+                                            "alternateId": "AF",
+                                            "allianceId": -31998
+                                        }
+                                    },
+                                    {
+                                        "id": "10413-10803-2212011200-2212011715--32677",
+                                        "origin": {
+                                            "flightPlaceId": "CDG",
+                                            "parent": {
+                                                "flightPlaceId": "PARI",
+                                                "name": "Paris",
+                                                "type": "City"
+                                            },
+                                            "name": "Paris Charles de Gaulle",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "CUN",
+                                            "parent": {
+                                                "flightPlaceId": "CUNA",
+                                                "name": "Cancun",
+                                                "type": "City"
+                                            },
+                                            "name": "Cancun",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-12-01T12:00:00",
+                                        "arrival": "2022-12-01T17:15:00",
+                                        "durationInMinutes": 675,
+                                        "flightNumber": "650",
+                                        "marketingCarrier": {
+                                            "id": -32677,
+                                            "name": "Air France",
+                                            "alternateId": "AF",
+                                            "allianceId": -31998
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32677,
+                                            "name": "Air France",
+                                            "alternateId": "AF",
+                                            "allianceId": -31998
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "10803-2212101700--32132-0-9451-2212110820",
+                                "origin": {
+                                    "id": "CUN",
+                                    "name": "Cancun",
+                                    "displayCode": "CUN",
+                                    "city": "Cancun",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "AMS",
+                                    "name": "Amsterdam",
+                                    "displayCode": "AMS",
+                                    "city": "Amsterdam",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 560,
+                                "stopCount": 0,
+                                "isSmallestStops": true,
+                                "departure": "2022-12-10T17:00:00",
+                                "arrival": "2022-12-11T08:20:00",
+                                "timeDeltaInDays": 1,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32132,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/KL.png",
+                                            "name": "KLM"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "10803-9451-2212101700-2212110820--32132",
+                                        "origin": {
+                                            "flightPlaceId": "CUN",
+                                            "parent": {
+                                                "flightPlaceId": "CUNA",
+                                                "name": "Cancun",
+                                                "type": "City"
+                                            },
+                                            "name": "Cancun",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "AMS",
+                                            "parent": {
+                                                "flightPlaceId": "AMST",
+                                                "name": "Amsterdam",
+                                                "type": "City"
+                                            },
+                                            "name": "Amsterdam",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-12-10T17:00:00",
+                                        "arrival": "2022-12-11T08:20:00",
+                                        "durationInMinutes": 560,
+                                        "flightNumber": "690",
+                                        "marketingCarrier": {
+                                            "id": -32132,
+                                            "name": "KLM",
+                                            "alternateId": "KL",
+                                            "allianceId": -31998
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32132,
+                                            "name": "KLM",
+                                            "alternateId": "KL",
+                                            "allianceId": -31998
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 2.64606,
+                        "deeplink": "https://www.skyscanner.net/transport/flights/ams/cun/221201/221210/config/9451-2212010930--32677-1-10803-2212011715|10803-2212101700--32132-0-9451-2212110820?adults=2&adultsv2=2&cabinclass=economy&children=0&childrenv2=&destinationentityid=27540602&originentityid=27536561&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    },
+                    {
+                        "id": "9451-2212010930--32132-1-10803-2212011715|10803-2212101700--32132-0-9451-2212110820",
+                        "price": {
+                            "raw": 1842,
+                            "formatted": "1,842 \u20ac"
+                        },
+                        "legs": [
+                            {
+                                "id": "9451-2212010930--32132-1-10803-2212011715",
+                                "origin": {
+                                    "id": "AMS",
+                                    "name": "Amsterdam",
+                                    "displayCode": "AMS",
+                                    "city": "Amsterdam",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "CUN",
+                                    "name": "Cancun",
+                                    "displayCode": "CUN",
+                                    "city": "Cancun",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 825,
+                                "stopCount": 1,
+                                "isSmallestStops": false,
+                                "departure": "2022-12-01T09:30:00",
+                                "arrival": "2022-12-01T17:15:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32132,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/KL.png",
+                                            "name": "KLM"
+                                        }
+                                    ],
+                                    "operating": [
+                                        {
+                                            "id": -32677,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AF.png",
+                                            "name": "Air France"
+                                        }
+                                    ],
+                                    "operationType": "not_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "9451-10413-2212010930-2212011055--32132",
+                                        "origin": {
+                                            "flightPlaceId": "AMS",
+                                            "parent": {
+                                                "flightPlaceId": "AMST",
+                                                "name": "Amsterdam",
+                                                "type": "City"
+                                            },
+                                            "name": "Amsterdam",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "CDG",
+                                            "parent": {
+                                                "flightPlaceId": "PARI",
+                                                "name": "Paris",
+                                                "type": "City"
+                                            },
+                                            "name": "Paris Charles de Gaulle",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-12-01T09:30:00",
+                                        "arrival": "2022-12-01T10:55:00",
+                                        "durationInMinutes": 85,
+                                        "flightNumber": "2003",
+                                        "marketingCarrier": {
+                                            "id": -32132,
+                                            "name": "KLM",
+                                            "alternateId": "KL",
+                                            "allianceId": -31998
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32677,
+                                            "name": "Air France",
+                                            "alternateId": "AF",
+                                            "allianceId": -31998
+                                        }
+                                    },
+                                    {
+                                        "id": "10413-10803-2212011200-2212011715--32132",
+                                        "origin": {
+                                            "flightPlaceId": "CDG",
+                                            "parent": {
+                                                "flightPlaceId": "PARI",
+                                                "name": "Paris",
+                                                "type": "City"
+                                            },
+                                            "name": "Paris Charles de Gaulle",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "CUN",
+                                            "parent": {
+                                                "flightPlaceId": "CUNA",
+                                                "name": "Cancun",
+                                                "type": "City"
+                                            },
+                                            "name": "Cancun",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-12-01T12:00:00",
+                                        "arrival": "2022-12-01T17:15:00",
+                                        "durationInMinutes": 675,
+                                        "flightNumber": "2158",
+                                        "marketingCarrier": {
+                                            "id": -32132,
+                                            "name": "KLM",
+                                            "alternateId": "KL",
+                                            "allianceId": -31998
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32677,
+                                            "name": "Air France",
+                                            "alternateId": "AF",
+                                            "allianceId": -31998
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "10803-2212101700--32132-0-9451-2212110820",
+                                "origin": {
+                                    "id": "CUN",
+                                    "name": "Cancun",
+                                    "displayCode": "CUN",
+                                    "city": "Cancun",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "AMS",
+                                    "name": "Amsterdam",
+                                    "displayCode": "AMS",
+                                    "city": "Amsterdam",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 560,
+                                "stopCount": 0,
+                                "isSmallestStops": true,
+                                "departure": "2022-12-10T17:00:00",
+                                "arrival": "2022-12-11T08:20:00",
+                                "timeDeltaInDays": 1,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32132,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/KL.png",
+                                            "name": "KLM"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "10803-9451-2212101700-2212110820--32132",
+                                        "origin": {
+                                            "flightPlaceId": "CUN",
+                                            "parent": {
+                                                "flightPlaceId": "CUNA",
+                                                "name": "Cancun",
+                                                "type": "City"
+                                            },
+                                            "name": "Cancun",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "AMS",
+                                            "parent": {
+                                                "flightPlaceId": "AMST",
+                                                "name": "Amsterdam",
+                                                "type": "City"
+                                            },
+                                            "name": "Amsterdam",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-12-10T17:00:00",
+                                        "arrival": "2022-12-11T08:20:00",
+                                        "durationInMinutes": 560,
+                                        "flightNumber": "690",
+                                        "marketingCarrier": {
+                                            "id": -32132,
+                                            "name": "KLM",
+                                            "alternateId": "KL",
+                                            "allianceId": -31998
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32132,
+                                            "name": "KLM",
+                                            "alternateId": "KL",
+                                            "allianceId": -31998
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 6.32506,
+                        "deeplink": "https://www.skyscanner.net/transport/flights/ams/cun/221201/221210/config/9451-2212010930--32132-1-10803-2212011715|10803-2212101700--32132-0-9451-2212110820?adults=2&adultsv2=2&cabinclass=economy&children=0&childrenv2=&destinationentityid=27540602&originentityid=27536561&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    }
+                ]
+            },
+            {
+                "id": "Cheapest",
+                "name": "Cheapest",
+                "items": [
+                    {
+                        "id": "9451-2212010710--32480-1-10803-2212011650|10803-2212101835--32480-1-9451-2212111515",
+                        "price": {
+                            "raw": 1325,
+                            "formatted": "1,325 \u20ac"
+                        },
+                        "legs": [
+                            {
+                                "id": "9451-2212010710--32480-1-10803-2212011650",
+                                "origin": {
+                                    "id": "AMS",
+                                    "name": "Amsterdam",
+                                    "displayCode": "AMS",
+                                    "city": "Amsterdam",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "CUN",
+                                    "name": "Cancun",
+                                    "displayCode": "CUN",
+                                    "city": "Cancun",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 940,
+                                "stopCount": 1,
+                                "isSmallestStops": false,
+                                "departure": "2022-12-01T07:10:00",
+                                "arrival": "2022-12-01T16:50:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32480,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/BA.png",
+                                            "name": "British Airways"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "airportChangesIn": [
+                                    "London"
+                                ],
+                                "segments": [
+                                    {
+                                        "id": "9451-13554-2212010710-2212010725--32480",
+                                        "origin": {
+                                            "flightPlaceId": "AMS",
+                                            "parent": {
+                                                "flightPlaceId": "AMST",
+                                                "name": "Amsterdam",
+                                                "type": "City"
+                                            },
+                                            "name": "Amsterdam",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "LHR",
+                                            "parent": {
+                                                "flightPlaceId": "LOND",
+                                                "name": "London",
+                                                "type": "City"
+                                            },
+                                            "name": "London Heathrow",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-12-01T07:10:00",
+                                        "arrival": "2022-12-01T07:25:00",
+                                        "durationInMinutes": 75,
+                                        "flightNumber": "423",
+                                        "marketingCarrier": {
+                                            "id": -32480,
+                                            "name": "British Airways",
+                                            "alternateId": "BA",
+                                            "allianceId": -32000
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32480,
+                                            "name": "British Airways",
+                                            "alternateId": "BA",
+                                            "allianceId": -32000
+                                        }
+                                    },
+                                    {
+                                        "id": "13542-10803-2212011050-2212011650--32480",
+                                        "origin": {
+                                            "flightPlaceId": "LGW",
+                                            "parent": {
+                                                "flightPlaceId": "LOND",
+                                                "name": "London",
+                                                "type": "City"
+                                            },
+                                            "name": "London Gatwick",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "CUN",
+                                            "parent": {
+                                                "flightPlaceId": "CUNA",
+                                                "name": "Cancun",
+                                                "type": "City"
+                                            },
+                                            "name": "Cancun",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-12-01T10:50:00",
+                                        "arrival": "2022-12-01T16:50:00",
+                                        "durationInMinutes": 660,
+                                        "flightNumber": "2203",
+                                        "marketingCarrier": {
+                                            "id": -32480,
+                                            "name": "British Airways",
+                                            "alternateId": "BA",
+                                            "allianceId": -32000
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32480,
+                                            "name": "British Airways",
+                                            "alternateId": "BA",
+                                            "allianceId": -32000
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "10803-2212101835--32480-1-9451-2212111515",
+                                "origin": {
+                                    "id": "CUN",
+                                    "name": "Cancun",
+                                    "displayCode": "CUN",
+                                    "city": "Cancun",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "AMS",
+                                    "name": "Amsterdam",
+                                    "displayCode": "AMS",
+                                    "city": "Amsterdam",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 880,
+                                "stopCount": 1,
+                                "isSmallestStops": false,
+                                "departure": "2022-12-10T18:35:00",
+                                "arrival": "2022-12-11T15:15:00",
+                                "timeDeltaInDays": 1,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32480,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/BA.png",
+                                            "name": "British Airways"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "airportChangesIn": [
+                                    "London"
+                                ],
+                                "segments": [
+                                    {
+                                        "id": "10803-13542-2212101835-2212110845--32480",
+                                        "origin": {
+                                            "flightPlaceId": "CUN",
+                                            "parent": {
+                                                "flightPlaceId": "CUNA",
+                                                "name": "Cancun",
+                                                "type": "City"
+                                            },
+                                            "name": "Cancun",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "LGW",
+                                            "parent": {
+                                                "flightPlaceId": "LOND",
+                                                "name": "London",
+                                                "type": "City"
+                                            },
+                                            "name": "London Gatwick",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-12-10T18:35:00",
+                                        "arrival": "2022-12-11T08:45:00",
+                                        "durationInMinutes": 550,
+                                        "flightNumber": "2202",
+                                        "marketingCarrier": {
+                                            "id": -32480,
+                                            "name": "British Airways",
+                                            "alternateId": "BA",
+                                            "allianceId": -32000
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32480,
+                                            "name": "British Airways",
+                                            "alternateId": "BA",
+                                            "allianceId": -32000
+                                        }
+                                    },
+                                    {
+                                        "id": "13554-9451-2212111250-2212111515--32480",
+                                        "origin": {
+                                            "flightPlaceId": "LHR",
+                                            "parent": {
+                                                "flightPlaceId": "LOND",
+                                                "name": "London",
+                                                "type": "City"
+                                            },
+                                            "name": "London Heathrow",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "AMS",
+                                            "parent": {
+                                                "flightPlaceId": "AMST",
+                                                "name": "Amsterdam",
+                                                "type": "City"
+                                            },
+                                            "name": "Amsterdam",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-12-11T12:50:00",
+                                        "arrival": "2022-12-11T15:15:00",
+                                        "durationInMinutes": 85,
+                                        "flightNumber": "438",
+                                        "marketingCarrier": {
+                                            "id": -32480,
+                                            "name": "British Airways",
+                                            "alternateId": "BA",
+                                            "allianceId": -32000
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32480,
+                                            "name": "British Airways",
+                                            "alternateId": "BA",
+                                            "allianceId": -32000
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 6.69326,
+                        "deeplink": "https://www.skyscanner.net/transport/flights/ams/cun/221201/221210/config/9451-2212010710--32480-1-10803-2212011650|10803-2212101835--32480-1-9451-2212111515?adults=2&adultsv2=2&cabinclass=economy&children=0&childrenv2=&destinationentityid=27540602&originentityid=27536561&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    },
+                    {
+                        "id": "9451-2212010705--32480-1-10803-2212011650|10803-2212101835--32480-1-9451-2212111515",
+                        "price": {
+                            "raw": 1348,
+                            "formatted": "1,348 \u20ac"
+                        },
+                        "legs": [
+                            {
+                                "id": "9451-2212010705--32480-1-10803-2212011650",
+                                "origin": {
+                                    "id": "AMS",
+                                    "name": "Amsterdam",
+                                    "displayCode": "AMS",
+                                    "city": "Amsterdam",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "CUN",
+                                    "name": "Cancun",
+                                    "displayCode": "CUN",
+                                    "city": "Cancun",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 945,
+                                "stopCount": 1,
+                                "isSmallestStops": false,
+                                "departure": "2022-12-01T07:05:00",
+                                "arrival": "2022-12-01T16:50:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32480,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/BA.png",
+                                            "name": "British Airways"
+                                        }
+                                    ],
+                                    "operating": [
+                                        {
+                                            "id": -32528,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/CJ.png",
+                                            "name": "BA Cityflyer"
+                                        }
+                                    ],
+                                    "operationType": "partially_operated"
+                                },
+                                "airportChangesIn": [
+                                    "London"
+                                ],
+                                "segments": [
+                                    {
+                                        "id": "9451-13465-2212010705-2212010715--32480",
+                                        "origin": {
+                                            "flightPlaceId": "AMS",
+                                            "parent": {
+                                                "flightPlaceId": "AMST",
+                                                "name": "Amsterdam",
+                                                "type": "City"
+                                            },
+                                            "name": "Amsterdam",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "LCY",
+                                            "parent": {
+                                                "flightPlaceId": "LOND",
+                                                "name": "London",
+                                                "type": "City"
+                                            },
+                                            "name": "London City",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-12-01T07:05:00",
+                                        "arrival": "2022-12-01T07:15:00",
+                                        "durationInMinutes": 70,
+                                        "flightNumber": "8450",
+                                        "marketingCarrier": {
+                                            "id": -32480,
+                                            "name": "British Airways",
+                                            "alternateId": "BA",
+                                            "allianceId": -32000
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32528,
+                                            "name": "BA Cityflyer",
+                                            "alternateId": "CJ",
+                                            "allianceId": 0
+                                        }
+                                    },
+                                    {
+                                        "id": "13542-10803-2212011050-2212011650--32480",
+                                        "origin": {
+                                            "flightPlaceId": "LGW",
+                                            "parent": {
+                                                "flightPlaceId": "LOND",
+                                                "name": "London",
+                                                "type": "City"
+                                            },
+                                            "name": "London Gatwick",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "CUN",
+                                            "parent": {
+                                                "flightPlaceId": "CUNA",
+                                                "name": "Cancun",
+                                                "type": "City"
+                                            },
+                                            "name": "Cancun",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-12-01T10:50:00",
+                                        "arrival": "2022-12-01T16:50:00",
+                                        "durationInMinutes": 660,
+                                        "flightNumber": "2203",
+                                        "marketingCarrier": {
+                                            "id": -32480,
+                                            "name": "British Airways",
+                                            "alternateId": "BA",
+                                            "allianceId": -32000
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32480,
+                                            "name": "British Airways",
+                                            "alternateId": "BA",
+                                            "allianceId": -32000
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "10803-2212101835--32480-1-9451-2212111515",
+                                "origin": {
+                                    "id": "CUN",
+                                    "name": "Cancun",
+                                    "displayCode": "CUN",
+                                    "city": "Cancun",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "AMS",
+                                    "name": "Amsterdam",
+                                    "displayCode": "AMS",
+                                    "city": "Amsterdam",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 880,
+                                "stopCount": 1,
+                                "isSmallestStops": false,
+                                "departure": "2022-12-10T18:35:00",
+                                "arrival": "2022-12-11T15:15:00",
+                                "timeDeltaInDays": 1,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32480,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/BA.png",
+                                            "name": "British Airways"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "airportChangesIn": [
+                                    "London"
+                                ],
+                                "segments": [
+                                    {
+                                        "id": "10803-13542-2212101835-2212110845--32480",
+                                        "origin": {
+                                            "flightPlaceId": "CUN",
+                                            "parent": {
+                                                "flightPlaceId": "CUNA",
+                                                "name": "Cancun",
+                                                "type": "City"
+                                            },
+                                            "name": "Cancun",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "LGW",
+                                            "parent": {
+                                                "flightPlaceId": "LOND",
+                                                "name": "London",
+                                                "type": "City"
+                                            },
+                                            "name": "London Gatwick",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-12-10T18:35:00",
+                                        "arrival": "2022-12-11T08:45:00",
+                                        "durationInMinutes": 550,
+                                        "flightNumber": "2202",
+                                        "marketingCarrier": {
+                                            "id": -32480,
+                                            "name": "British Airways",
+                                            "alternateId": "BA",
+                                            "allianceId": -32000
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32480,
+                                            "name": "British Airways",
+                                            "alternateId": "BA",
+                                            "allianceId": -32000
+                                        }
+                                    },
+                                    {
+                                        "id": "13554-9451-2212111250-2212111515--32480",
+                                        "origin": {
+                                            "flightPlaceId": "LHR",
+                                            "parent": {
+                                                "flightPlaceId": "LOND",
+                                                "name": "London",
+                                                "type": "City"
+                                            },
+                                            "name": "London Heathrow",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "AMS",
+                                            "parent": {
+                                                "flightPlaceId": "AMST",
+                                                "name": "Amsterdam",
+                                                "type": "City"
+                                            },
+                                            "name": "Amsterdam",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-12-11T12:50:00",
+                                        "arrival": "2022-12-11T15:15:00",
+                                        "durationInMinutes": 85,
+                                        "flightNumber": "438",
+                                        "marketingCarrier": {
+                                            "id": -32480,
+                                            "name": "British Airways",
+                                            "alternateId": "BA",
+                                            "allianceId": -32000
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32480,
+                                            "name": "British Airways",
+                                            "alternateId": "BA",
+                                            "allianceId": -32000
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 6.5606,
+                        "deeplink": "https://www.skyscanner.net/transport/flights/ams/cun/221201/221210/config/9451-2212010705--32480-1-10803-2212011650|10803-2212101835--32480-1-9451-2212111515?adults=2&adultsv2=2&cabinclass=economy&children=0&childrenv2=&destinationentityid=27540602&originentityid=27536561&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    },
+                    {
+                        "id": "9451-2212012200--32480-1-10803-2212021715|10803-2212101835--32480-1-9451-2212111515",
+                        "price": {
+                            "raw": 1351,
+                            "formatted": "1,351 \u20ac"
+                        },
+                        "legs": [
+                            {
+                                "id": "9451-2212012200--32480-1-10803-2212021715",
+                                "origin": {
+                                    "id": "AMS",
+                                    "name": "Amsterdam",
+                                    "displayCode": "AMS",
+                                    "city": "Amsterdam",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "CUN",
+                                    "name": "Cancun",
+                                    "displayCode": "CUN",
+                                    "city": "Cancun",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 1515,
+                                "stopCount": 1,
+                                "isSmallestStops": false,
+                                "departure": "2022-12-01T22:00:00",
+                                "arrival": "2022-12-02T17:15:00",
+                                "timeDeltaInDays": 1,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32480,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/BA.png",
+                                            "name": "British Airways"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "airportChangesIn": [
+                                    "London"
+                                ],
+                                "segments": [
+                                    {
+                                        "id": "9451-13554-2212012200-2212012205--32480",
+                                        "origin": {
+                                            "flightPlaceId": "AMS",
+                                            "parent": {
+                                                "flightPlaceId": "AMST",
+                                                "name": "Amsterdam",
+                                                "type": "City"
+                                            },
+                                            "name": "Amsterdam",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "LHR",
+                                            "parent": {
+                                                "flightPlaceId": "LOND",
+                                                "name": "London",
+                                                "type": "City"
+                                            },
+                                            "name": "London Heathrow",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-12-01T22:00:00",
+                                        "arrival": "2022-12-01T22:05:00",
+                                        "durationInMinutes": 65,
+                                        "flightNumber": "427",
+                                        "marketingCarrier": {
+                                            "id": -32480,
+                                            "name": "British Airways",
+                                            "alternateId": "BA",
+                                            "allianceId": -32000
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32480,
+                                            "name": "British Airways",
+                                            "alternateId": "BA",
+                                            "allianceId": -32000
+                                        }
+                                    },
+                                    {
+                                        "id": "13542-10803-2212021115-2212021715--32480",
+                                        "origin": {
+                                            "flightPlaceId": "LGW",
+                                            "parent": {
+                                                "flightPlaceId": "LOND",
+                                                "name": "London",
+                                                "type": "City"
+                                            },
+                                            "name": "London Gatwick",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "CUN",
+                                            "parent": {
+                                                "flightPlaceId": "CUNA",
+                                                "name": "Cancun",
+                                                "type": "City"
+                                            },
+                                            "name": "Cancun",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-12-02T11:15:00",
+                                        "arrival": "2022-12-02T17:15:00",
+                                        "durationInMinutes": 660,
+                                        "flightNumber": "2203",
+                                        "marketingCarrier": {
+                                            "id": -32480,
+                                            "name": "British Airways",
+                                            "alternateId": "BA",
+                                            "allianceId": -32000
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32480,
+                                            "name": "British Airways",
+                                            "alternateId": "BA",
+                                            "allianceId": -32000
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "10803-2212101835--32480-1-9451-2212111515",
+                                "origin": {
+                                    "id": "CUN",
+                                    "name": "Cancun",
+                                    "displayCode": "CUN",
+                                    "city": "Cancun",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "AMS",
+                                    "name": "Amsterdam",
+                                    "displayCode": "AMS",
+                                    "city": "Amsterdam",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 880,
+                                "stopCount": 1,
+                                "isSmallestStops": false,
+                                "departure": "2022-12-10T18:35:00",
+                                "arrival": "2022-12-11T15:15:00",
+                                "timeDeltaInDays": 1,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32480,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/BA.png",
+                                            "name": "British Airways"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "airportChangesIn": [
+                                    "London"
+                                ],
+                                "segments": [
+                                    {
+                                        "id": "10803-13542-2212101835-2212110845--32480",
+                                        "origin": {
+                                            "flightPlaceId": "CUN",
+                                            "parent": {
+                                                "flightPlaceId": "CUNA",
+                                                "name": "Cancun",
+                                                "type": "City"
+                                            },
+                                            "name": "Cancun",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "LGW",
+                                            "parent": {
+                                                "flightPlaceId": "LOND",
+                                                "name": "London",
+                                                "type": "City"
+                                            },
+                                            "name": "London Gatwick",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-12-10T18:35:00",
+                                        "arrival": "2022-12-11T08:45:00",
+                                        "durationInMinutes": 550,
+                                        "flightNumber": "2202",
+                                        "marketingCarrier": {
+                                            "id": -32480,
+                                            "name": "British Airways",
+                                            "alternateId": "BA",
+                                            "allianceId": -32000
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32480,
+                                            "name": "British Airways",
+                                            "alternateId": "BA",
+                                            "allianceId": -32000
+                                        }
+                                    },
+                                    {
+                                        "id": "13554-9451-2212111250-2212111515--32480",
+                                        "origin": {
+                                            "flightPlaceId": "LHR",
+                                            "parent": {
+                                                "flightPlaceId": "LOND",
+                                                "name": "London",
+                                                "type": "City"
+                                            },
+                                            "name": "London Heathrow",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "AMS",
+                                            "parent": {
+                                                "flightPlaceId": "AMST",
+                                                "name": "Amsterdam",
+                                                "type": "City"
+                                            },
+                                            "name": "Amsterdam",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-12-11T12:50:00",
+                                        "arrival": "2022-12-11T15:15:00",
+                                        "durationInMinutes": 85,
+                                        "flightNumber": "438",
+                                        "marketingCarrier": {
+                                            "id": -32480,
+                                            "name": "British Airways",
+                                            "alternateId": "BA",
+                                            "allianceId": -32000
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32480,
+                                            "name": "British Airways",
+                                            "alternateId": "BA",
+                                            "allianceId": -32000
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 4.98904,
+                        "deeplink": "https://www.skyscanner.net/transport/flights/ams/cun/221201/221210/config/9451-2212012200--32480-1-10803-2212021715|10803-2212101835--32480-1-9451-2212111515?adults=2&adultsv2=2&cabinclass=economy&children=0&childrenv2=&destinationentityid=27540602&originentityid=27536561&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    }
+                ]
+            },
+            {
+                "id": "Direct",
+                "name": "Direct",
+                "items": [
+                    {
+                        "id": "9451-2212011000--32132-0-10803-2212011500|10803-2212101700--32132-0-9451-2212110820",
+                        "price": {
+                            "raw": 1724,
+                            "formatted": "1,724 \u20ac"
+                        },
+                        "legs": [
+                            {
+                                "id": "9451-2212011000--32132-0-10803-2212011500",
+                                "origin": {
+                                    "id": "AMS",
+                                    "name": "Amsterdam",
+                                    "displayCode": "AMS",
+                                    "city": "Amsterdam",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "CUN",
+                                    "name": "Cancun",
+                                    "displayCode": "CUN",
+                                    "city": "Cancun",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 660,
+                                "stopCount": 0,
+                                "isSmallestStops": true,
+                                "departure": "2022-12-01T10:00:00",
+                                "arrival": "2022-12-01T15:00:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32132,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/KL.png",
+                                            "name": "KLM"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "9451-10803-2212011000-2212011500--32132",
+                                        "origin": {
+                                            "flightPlaceId": "AMS",
+                                            "parent": {
+                                                "flightPlaceId": "AMST",
+                                                "name": "Amsterdam",
+                                                "type": "City"
+                                            },
+                                            "name": "Amsterdam",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "CUN",
+                                            "parent": {
+                                                "flightPlaceId": "CUNA",
+                                                "name": "Cancun",
+                                                "type": "City"
+                                            },
+                                            "name": "Cancun",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-12-01T10:00:00",
+                                        "arrival": "2022-12-01T15:00:00",
+                                        "durationInMinutes": 660,
+                                        "flightNumber": "689",
+                                        "marketingCarrier": {
+                                            "id": -32132,
+                                            "name": "KLM",
+                                            "alternateId": "KL",
+                                            "allianceId": -31998
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32132,
+                                            "name": "KLM",
+                                            "alternateId": "KL",
+                                            "allianceId": -31998
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "10803-2212101700--32132-0-9451-2212110820",
+                                "origin": {
+                                    "id": "CUN",
+                                    "name": "Cancun",
+                                    "displayCode": "CUN",
+                                    "city": "Cancun",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "AMS",
+                                    "name": "Amsterdam",
+                                    "displayCode": "AMS",
+                                    "city": "Amsterdam",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 560,
+                                "stopCount": 0,
+                                "isSmallestStops": true,
+                                "departure": "2022-12-10T17:00:00",
+                                "arrival": "2022-12-11T08:20:00",
+                                "timeDeltaInDays": 1,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32132,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/KL.png",
+                                            "name": "KLM"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "10803-9451-2212101700-2212110820--32132",
+                                        "origin": {
+                                            "flightPlaceId": "CUN",
+                                            "parent": {
+                                                "flightPlaceId": "CUNA",
+                                                "name": "Cancun",
+                                                "type": "City"
+                                            },
+                                            "name": "Cancun",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "AMS",
+                                            "parent": {
+                                                "flightPlaceId": "AMST",
+                                                "name": "Amsterdam",
+                                                "type": "City"
+                                            },
+                                            "name": "Amsterdam",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-12-10T17:00:00",
+                                        "arrival": "2022-12-11T08:20:00",
+                                        "durationInMinutes": 560,
+                                        "flightNumber": "690",
+                                        "marketingCarrier": {
+                                            "id": -32132,
+                                            "name": "KLM",
+                                            "alternateId": "KL",
+                                            "allianceId": -31998
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32132,
+                                            "name": "KLM",
+                                            "alternateId": "KL",
+                                            "allianceId": -31998
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "tags": [
+                            "shortest"
+                        ],
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 7.67143,
+                        "deeplink": "https://www.skyscanner.net/transport/flights/ams/cun/221201/221210/config/9451-2212011000--32132-0-10803-2212011500|10803-2212101700--32132-0-9451-2212110820?adults=2&adultsv2=2&cabinclass=economy&children=0&childrenv2=&destinationentityid=27540602&originentityid=27536561&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    }
+                ]
+            }
+        ]
+    },
+    "context": {
+        "status": "complete",
+        "sessionId": "774e0128-7fb2-476f-ab0b-320ab8a0f20c",
+        "totalResults": 900
+    }
+}
